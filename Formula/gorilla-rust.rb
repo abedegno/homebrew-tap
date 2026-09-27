@@ -4,18 +4,18 @@ class GorillaRust < Formula
   desc "Pixel-faithful Rust port of the 1990 QBasic game Gorillas"
   homepage "https://github.com/abedegno/gorilla-rust"
   # The universal macOS build, unless on_linux below picks a Linux one.
-  url "https://github.com/abedegno/gorilla-rust/releases/download/v1.4.1/gorilla-rust-universal-apple-darwin.tar.gz"
-  sha256 "5a1c3f4d494946aee02051c5ba7534786f117ab563640ad9c047946af73cb7d1"
+  url "https://github.com/abedegno/gorilla-rust/releases/download/v1.4.2/gorilla-rust-universal-apple-darwin.tar.gz"
+  sha256 "21c7d7e8ccd93fa2ba83712f690414f8a93ed85752544c937451306ce2717d7f"
   license "MIT"
 
   on_linux do
     on_intel do
-      url "https://github.com/abedegno/gorilla-rust/releases/download/v1.4.1/gorilla-rust-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4ad3ef161b81ac7f12ff276d7d37ff38064bf9497bd9d63b5f58e3b20ef58f3e"
+      url "https://github.com/abedegno/gorilla-rust/releases/download/v1.4.2/gorilla-rust-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "8d7574a4c69481f2f015d896c76afe5af5e72339e59735b3e402ff939282d177"
     end
     on_arm do
-      url "https://github.com/abedegno/gorilla-rust/releases/download/v1.4.1/gorilla-rust-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "01e7daf3c7ae2827627ac56fa23057f35954267de4fed763411efd196a04a3fc"
+      url "https://github.com/abedegno/gorilla-rust/releases/download/v1.4.2/gorilla-rust-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b7107ad48e044e7499d78e0007b59bab494858dc683250e6f1a9549bf15bcba2"
     end
   end
 
