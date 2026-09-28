@@ -1,8 +1,8 @@
 # Written by gorilla-rust's release workflow from
 # packaging/homebrew/gorillas.rb.in. Change that, not this.
 cask "gorillas" do
-  version "1.4.2"
-  sha256 "e125f9f7966ba5785c38b78db0058386c281f665ce59c3a088779ee376442063"
+  version "1.5.0"
+  sha256 "7193a65487cd7460d8d718212714346cfaa5d011ca343832efee218bdcf5d3e7"
 
   url "https://github.com/abedegno/gorilla-rust/releases/download/v#{version}/Gorillas-#{version}.dmg"
   name "Gorillas"
